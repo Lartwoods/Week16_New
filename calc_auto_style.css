@@ -95,3 +95,6 @@ p {
   margin: auto;
   color: aliceblue;
 }
+.errors {
+  color: rgb(189, 49, 49);
+}
