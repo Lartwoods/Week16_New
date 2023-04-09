@@ -104,43 +104,9 @@ function finalSum() {
     ) + " каких-то рублей";
 }
 
-// function checkPayment() {
-//   let isChecked = false;
-
-//   carPaymentRadioCheckbox.forEach((item) => {
-//     if (item.checked) {
-//       isChecked = true;
-//     }
-//   });
-
-//   if (!isChecked) {
-//     errors.style.display = "block";
-//     errors.innerHTML = "Выберите способ оплаты!";
-//   }
-// }
-
 sumButton.addEventListener("click", finalSum);
 sumButton.addEventListener("click", CheckCheckbox);
 sumButton.addEventListener("click", checkErrorsEngine);
 sumButton.addEventListener("click", radioCheckbox);
 
 console.log("test");
-
-// const modelsRenault = [
-//   {
-//     model: "1",
-//     ratio: 11,
-//   },
-//   {
-//     model: "2",
-//     ratio: 12,
-//   },
-//   {
-//     model: "3",
-//     ratio: 13,
-//   },
-//   {
-//     model: "4",
-//     ratio: 14,
-//   },
-// ];
